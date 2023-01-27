@@ -1,0 +1,13 @@
+.main-content{
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.art-image{
+    background: url('https://images.pexels.com/photos/942317/pexels-photo-942317.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat;
+    background-size:cover;
+    height: 70vh;  
+    /* margin-top: 80px; */
+}

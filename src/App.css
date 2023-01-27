@@ -1,0 +1,349 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css');
+
+.hero-image{
+    background: linear-gradient(90deg, rgba(172, 27, 41, 0.86) 23.32%, rgba(233, 175, 63, 0.81) 59.86%),url('./media/Hero\ Image.jpg') no-repeat;
+    background-size:cover;
+    height: 100vh;  
+    margin-top: 80px;
+}
+
+.navbarr{
+  background:  linear-gradient(90deg, rgba(172, 27, 41, 0.86) 23.32%, rgba(233, 175, 63, 0.81) 59.86%);
+  margin-top: -94px;
+}
+
+.contact-link{
+    background: #CC2031;
+}
+
+@media screen and (max-width: 768px) {
+    .navbarr{
+        margin-top: -78px;
+    }
+    .hero-image{
+        margin-top: 76px;
+        height: 70vh;
+    }
+    .hero-image .content{
+        margin-top: 40px;
+    }
+}
+
+.about-image{
+    background: url('./media/VectorHourGlass.png') no-repeat;
+    background-size: cover;
+}
+
+.span-recreate{
+    color: #CC2031;
+}
+
+.services-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pic-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    max-width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .pic-grid h3{
+    margin-top: 200px;
+    font-size: 20px;
+  }
+  .grid-item-1,.grid-item-2,.grid-item-3,.grid-item-4{
+    width: 100%;
+    cursor: pointer;
+    height: 260px;
+    background: url('./media/Public\ relations\ image.png') no-repeat;
+    background-size: cover;
+    
+  }
+  .grid-item-1:hover{
+    background:  linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('./media/Public\ relations\ image.png') no-repeat;
+    background-size: cover;
+  } 
+  
+  .grid-item-2{
+    background:  linear-gradient(180deg, rgba(0, 0, 0, 0) 34.01%, rgba(0, 0, 0, 0.8) 76.04%),url('./media/Brand\ management\ image.png') no-repeat;
+    background-size: cover;
+  }
+  .grid-item-2:hover{
+    background:  linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('./media/Brand\ management\ image.png') no-repeat;
+    background-size: cover;
+  }
+  .grid-item-3{
+    background:  linear-gradient(180deg, rgba(0, 0, 0, 0) 34.01%, rgba(0, 0, 0, 0.8) 76.04%),url('./media/Digital\ Marketing\ Image.png') no-repeat;
+    background-size: cover;
+  }
+  .grid-item-3:hover{
+    background:  linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('./media/Digital\ Marketing\ Image.png') no-repeat;
+    background-size: cover;
+  }
+  .grid-item-4{
+   background:  linear-gradient(180deg, rgba(0, 0, 0, 0) 34.01%, rgba(0, 0, 0, 0.8) 76.04%),url('./media/Training\ Image.png') no-repeat;
+   background-size: cover;
+  }
+  .grid-item-4:hover{
+   background:  linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('./media/Training\ Image.png') no-repeat;
+   background-size: cover;
+  }
+  .vectorbuld2{
+    background: url('./media/Vectorbuld2.png');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: right top;
+  }
+  .vectorbuld2 .header{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 55px;
+  }
+ /* testimony */
+.testimony{
+  background: rgb(245, 238, 230);
+  padding-top: 40px;
+  background: url('./media/vectorQuote1.png') no-repeat left top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.testimony-cards{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* grid-card-1 */
+.card-grid-1{
+  margin-top: 42px; 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 70px;
+  row-gap: 40px;
+  max-width: 100%;
+}
+
+/* card */
+.grid-card{
+  padding: 30px 20px 0 30px;
+  width: 500px;
+  height: 200px;
+  background: linear-gradient(90deg, rgba(204, 32, 49, 0.2) 31.98%, rgba(233, 175, 63, 0.2) 100%);
+}
+.card-footer{
+  margin-top: 20px;
+  display: flex;
+}
+.card-footer p{
+  line-height: 16px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+/* percentage */
+.grid-percentage-1 img{
+  width: 30px;
+  height:30px;
+}
+/* worked-with */
+.worked-with{
+  text-align: center;
+}
+.worked-with h4{
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.worked-with .company-image{
+  width: 90vw;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px){
+  
+/* testimony */
+.testimony{
+  background: rgb(245, 238, 230);
+  background: url('./media/vectorQuote1.png')no-repeat left top;
+}
+/* grid-card-1 */
+.card-grid-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* card */
+.grid-card{
+  padding-bottom: 10px;
+  margin-top: 20px;
+  width: 500px;
+  height: 200px;
+  background: linear-gradient(90deg, rgba(204, 32, 49, 0.2) 31.98%, rgba(233, 175, 63, 0.2) 100%);
+}
+/* worked-with */
+.worked-with h4{
+  font-size: 20px;
+}
+}
+
+@media screen and (max-width: 700px){
+  .grid-card{
+    width: 70vw;
+    height: 200px;
+  }
+ .worked-with .company-image{
+  width: 90vw;
+ }
+}
+
+@media screen and (max-width: 560px){
+  /* testimony */
+/* card */
+.grid-card{
+  height: max-content;
+  width: 70vw;
+  padding-bottom: 20px;
+ }
+ 
+ /* worked-with */
+ .worked-with h4{
+   margin-top: 70px;
+   font-size: 14px;
+ }
+ .company-image{
+  justify-content: space-around;
+  flex-direction: column;
+ }
+ .company-image img{
+   width: 40px;
+   padding-right: 5px;
+   height: 40px;
+ }
+}
+
+@media screen and (max-width:300px) {
+  .company-image{
+    width: 250px;
+  }
+}
+@media screen and (max-width:280px) {
+  .company-image{
+    width: 200px;
+  }
+}
+
+
+/* recent article */
+.recent-articles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  height: 550px;
+  background: linear-gradient(90deg, #CC2031 31.98%, #E9AF3F 100%);
+}
+.recent-articles h4{
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+.recent-articles h2{
+  font-weight: lighter;
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.grid-article{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  max-width: 100%;
+}
+.grid-article-1 h3{
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 44px;
+  margin-bottom: 5px;
+}
+.grid-article-1 img{
+  margin-top: 50px;
+  width:80%;
+  height: 60%;
+}
+
+@media screen and (max-width:1200px){
+/* talk more section */
+.talk-more{
+  background: rgb(245, 238, 230);
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  height: 500px;
+}
+.grid-talk-more{
+  grid-template-columns: repeat(2,1fr);
+}
+.grid-talk-1 h1{
+  font-size: 30px;
+}
+.grid-talk-2{
+  margin-top: 10px;
+  margin-left: 10px;
+  background: url('./media/VectorChat2.png') no-repeat right;
+  background-size: 400px;
+}
+.grid-talk-2 form{
+  padding-top: 26px;
+  padding-left: 30px;
+  width: 340px;
+  height: 490px;
+  background: rgba(233, 175, 63, 0.2);
+}
+.grid-talk-2 form input,.grid-talk-2 form textarea,.add-blog-form input,.add-blog-form textarea{
+  padding-left: 10px;
+  background: rgba(233, 175, 63, 0.2);
+  border: 0.5px solid #000000;
+  width: 300px;
+  height: 30px;
+  font-size: large;
+}
+.grid-talk-2 form textarea,.add-blog-form textarea{
+  padding-top: 5px;
+  height: 100px;
+}
+.grid-talk-2 form button, .add-blog-form button{
+  border: none;
+  width: 131px;
+  height: 50px;
+  background: #CC2031;
+  color: #FFFAFA;
+}
+}
+
+@media screen and (max-width:430px) {
+  
+  .talk-more{
+    margin-bottom: 10px;
+  }
+  .grid-talk-2 form{
+    padding: 26px 0 0 10px;
+    width: 100%;
+    height: 490px;
+    background: rgba(233, 175, 63, 0.2);
+  }
+}

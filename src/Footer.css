@@ -1,0 +1,25 @@
+.footerr{
+    background:  linear-gradient(90deg, rgba(172, 27, 41, 0.86) 23.32%, rgba(233, 175, 63, 0.81) 59.86%);
+}
+
+.social-link .fa{
+    font-size: 30px;
+}
+
+.social-links .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 40px 5px 0;
+    color: white;
+    cursor: pointer;
+    transition: .8s;
+    text-align: center;
+}
+
+
+.social-links p{
+    font-size: 12px;
+    margin-top: 20px;
+}
